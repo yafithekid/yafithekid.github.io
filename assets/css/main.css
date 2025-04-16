@@ -504,7 +504,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 40px 0 0 0;
   overflow: clip;
 }
 
@@ -512,7 +512,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -941,6 +941,17 @@ section,
 .services .service-item .description {
   line-height: 24px;
   font-size: 14px;
+}
+
+.services .service-item-img-container {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 24px;
+  overflow: auto;
+}
+
+.services .service-item-img-container img {
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
